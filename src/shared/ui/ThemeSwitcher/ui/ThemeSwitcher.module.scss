@@ -1,0 +1,13 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light {
+    fill: var(--inverted-primary-color);
+}
+
+.dark {
+    fill: var(--inverted-primary-color);
+}

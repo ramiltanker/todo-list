@@ -1,0 +1,31 @@
+@import './normalize';
+@import './reset';
+@import './variables/global';
+@import './themes/light';
+@import './themes/dark';
+
+body {
+    font-size: min(100vw, 1440px);
+}
+
+.app {
+    min-height: 100vh;
+    background-color: var(--primary-bg-color);
+    font-size: calc(28px / 1440px * 100%);
+}
+
+.page-wrapper {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .app {
+        font-size: calc(28px / 1440px * 200%);
+    }
+}
+
+@media (max-width: 425px) {
+    .app {
+        font-size: calc(28px / 1440px * 300%);
+    }
+}
